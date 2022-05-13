@@ -10,7 +10,7 @@ function RenderApp() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Books />} />
+          <Route exact path="/" element={<Books />} />
           <Route path="/category" element={<Category />} />
         </Routes>
       </Router>
