@@ -1,8 +1,10 @@
+/* eslint-disable no-undef */
+
 const ADD = 'ADD';
 const REMOVE = 'REMOVE';
 
 // let ArrOfBooks = [];
-const Book = {
+export const Book = {
   title: '',
   id: Date(),
 };

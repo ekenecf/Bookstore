@@ -9,5 +9,5 @@ const rootReducer = combineReducers({
 });
 
 const store = configureStore(rootReducer);
-console.log(store)
+
 export default store;
