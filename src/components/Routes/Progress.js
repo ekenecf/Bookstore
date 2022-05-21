@@ -9,7 +9,7 @@ const Progress = () => (
           <div className="fill" />
         </div>
         <div className="mask half">
-          <div className="fill" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+          <div className="fill" />
         </div>
         <div className="inside-circle"> 75% </div>
       </div>
