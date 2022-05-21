@@ -1,20 +1,20 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Books from './components/books';
-import NavBar from './components/nav';
-import Category from './components/categories';
+import Header from './components/Header';
+import BookList from './components/Routes/BookList';
+import Categories from './components/Routes/Categories';
 
-function RenderApp() {
+function App() {
   return (
-    <>
+    <div className="App">
       <Router>
-        <NavBar />
+        <Header />
         <Routes>
-          <Route exact path="/" element={<Books />} />
-          <Route path="/category" element={<Category />} />
+          <Route path="/" index element={<BookList />} />
+          <Route path="/categories" element={<Categories />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
-export default RenderApp;
+
+export default App;
