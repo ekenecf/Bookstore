@@ -3,7 +3,7 @@ const REMOVE_BOOK = 'REMOVE_BOOK';
 const FETCH_BOOKS = 'FETCH_BOOKS';
 const FETCH_BOOKS_ERROR = 'FETCH_BOOKS_ERROR';
 const FETCH_BOOKS_LOADING = 'FETCH_BOOKS_LOADING';
-const URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/yB1Dl3di7R2H9P4LCLMC/books';
+const URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/zb4rRKmTdPu5hEXD41Ox/books';
 
 export const addBook = (book) => ({
   type: ADD_BOOK,

@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.circle-wrap {
+  margin: 0 5vh 0 0;
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+
+  .mask {
+    clip: rect(0, 150px, 150px, 75px);
+
+    .fill {
+      clip: rect(0, 75px, 150px, 0);
+      background-color: #227ded;
+    }
+  }
+
+  .circle {
+    .mask,
+    .fill {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      border-radius: 50%;
+    }
+  }
+
+  .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+.progress-container {
+  margin: 3vh;
+}

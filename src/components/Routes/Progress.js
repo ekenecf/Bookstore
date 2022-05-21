@@ -1,4 +1,5 @@
 import React from 'react';
+import './scss/Progress.scss';
 
 const Progress = () => (
   <div className="progress-container d_flex_r g10">

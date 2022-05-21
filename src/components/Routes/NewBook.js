@@ -2,6 +2,7 @@ import React from 'react';
 import { generate } from 'randomized-string';
 import { useDispatch } from 'react-redux';
 import { postBook } from '../../redux/Books/books';
+import './scss/Style.scss';
 
 const NewBook = () => {
   const dispatch = useDispatch();
