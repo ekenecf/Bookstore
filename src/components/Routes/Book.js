@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { deleteBook } from '../../redux/Books/books';
 import Progress from './Progress';
+import './scss/Style.scss';
 
 const Book = (props) => {
   const {

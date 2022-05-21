@@ -1,4 +1,5 @@
 import React from 'react';
+import './scss/Progress.scss';
 
 const Progress = () => (
   <div className="progress-container d_flex_r g10">
@@ -8,7 +9,7 @@ const Progress = () => (
           <div className="fill" />
         </div>
         <div className="mask half">
-          <div className="fill" />
+          <div className="fill" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
         </div>
         <div className="inside-circle"> 75% </div>
       </div>
